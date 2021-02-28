@@ -1,5 +1,5 @@
 # static-server-1 server.js
-var http = require('http')
+```var http = require('http')
 var fs = require('fs')
 var url = require('url')
 var port = process.argv[2]
@@ -52,4 +52,4 @@ var server = http.createServer(function(request, response){
 })
 
 server.listen(port)
-console.log('监听 ' + port + ' 成功\n请用在空中转体720度然后用电饭煲打开 http://localhost:' + port)
+console.log('监听 ' + port + ' 成功\n请用在空中转体720度然后用电饭煲打开 http://localhost:' + port)```
